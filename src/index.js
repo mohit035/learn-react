@@ -109,28 +109,58 @@ import "./index.css";
 //  there are some rules for jsx attriutes , camelcase to follow
 
 
-const name = "mohit";
-const img1 = "https://picsum.photos/200";
-const links = "https://www.google.com.np";
-ReactDOM.render(
-  <>
-    <div>
+// const name = "mohit";
+// const img1 = "https://picsum.photos/200";
+// const links = "https://www.google.com.np";
+// ReactDOM.render(
+//   <>
+//     <div>
     
-      <h1 className = "heading"> My name is {name}</h1>
+//       <h1 className = "heading"> My name is {name}</h1>
       
-      <img src = {img1} alt = "randomImages"/>
-      <img src = {img1} alt = "randomImages"/>
-      <div className="img_div">
-      <img src = {img1} alt = "randomImages"/>
-      <a href = {links} target = "_blank">
-       <img src = {img1} alt = "randomImages"/>
-     </a>
-     </div>
-    </div>
-  </>,
-    document.getElementById('root'));
+//       <img src = {img1} alt = "randomImages"/>
+//       <img src = {img1} alt = "randomImages"/>
+//       <div className="img_div">
+//       <img src = {img1} alt = "randomImages"/>
+//       <a href = {links} target = "_blank">
+//        <img src = {img1} alt = "randomImages"/>
+//      </a>
+//      </div>
+//     </div>
+//   </>,
+//     document.getElementById('root'));
 
 
     //  css in react
   
+
+    // Task 3 greeting according to time 
+
+    // let curDate = new Date();
+    // curDate = curDate.getHours();
+    // let greeting = " ";
+    // const cssStyle = { };
+    
+    // if(curDate >= 1 && curDate <=12){
+    //        greeting = "Good Morning";
+    //        cssStyle.color = "green";
+
+    // }else if(curDate >= 12 && curDate <19){
+    //   greeting = "Good Afternoon"
+    //     cssStyle.color = "black";
+
+    // }else{
+    //   greeting = "Good Night";
+    //   cssStyle.color = "red";
+
+    // }
   
+
+
+    // ReactDOM.render(
+    //   <h1>Hello Sir, <span style = {cssStyle}>{greeting} </span> </h1>,
+    //   document.getElementById("root")
+    // );
+  
+
+    // component
